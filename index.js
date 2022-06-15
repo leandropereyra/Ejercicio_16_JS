@@ -37,3 +37,16 @@ secciones.forEach((seccion) => {
     }
   });
 });
+
+//Resultado del profesor:
+// const papelera = document.querySelector(".papelera")
+
+// papelera.addEventListener("dragover", event => {
+//     event.preventDefault()
+//     event.dataTransfer.dropEffect = "copy"
+// })
+
+// papelera.addEventListener("drop", event => {
+//     const id_parrafo = event.dataTransfer.getData("id")
+//     document.getElementById(id_parrafo).remove()
+// })
