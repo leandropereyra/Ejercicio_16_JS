@@ -1,0 +1,43 @@
+.seccion {
+    background-color: darkslategray;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+body {
+    display: flex;
+    align-content: stretch;
+    flex-direction: column;
+}
+
+.parrafo {
+    background-color: white;
+    padding: 1rem;
+}
+
+.parrafo.dragging {
+    opacity: 0.3;
+}
+
+.imagen-fantasma {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position: absolute;
+    left: -100vw;
+}
+
+.seccion.papelera {
+    background-color: transparent;
+    bottom: 0;
+    position: fixed;
+}
+
+.seccion.papelera img {
+    width: 150px;
+}
+
+.eliminado {
+    position: absolute;
+    left: -100vw;
+}
